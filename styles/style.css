@@ -199,13 +199,13 @@ footer {
     line-height: 1.2;
 }
 
-footer div {
+footer .wrapper {
     margin: 0 auto;
     width: 980px;
     padding: 1em 0 2.6em;
 }
 
-footer div p {
+footer .wrapper p {
     display: inlines;
     margin: 0;
     float: left;
@@ -217,17 +217,17 @@ footer div p {
     color: #6e6e6e;
 }
 
-footer div p a {
+footer .wrapper p a {
     text-decoration: none;
     color: rgb(0, 136, 204);
     text-decoration-color: rgb(0, 136, 204);;
 }
 
-footer div p a:hover {
+footer .wrapper p a:hover {
     text-decoration: underline;
 }
 
-footer div ul {
+footer .wrapper ul {
     display: inline;
     margin: 0;
     padding: 0;
@@ -256,7 +256,7 @@ footer div ul li {
     border-left: 1px solid #ccc;
 }
 
-footer div ul .worldwide {
+footer .wrapper ul .worldwide {
     position: relative;
     z-index: 1;
     width: 16px;
@@ -264,20 +264,26 @@ footer div ul .worldwide {
     zoom: 1;
 }
 
-footer div ul .worldwide img {
+footer .wrapper ul .worldwide img {
     position: absolute;
     z-index: 1;
     top: -2px;
     left: 7px;
 }
 
-footer div ul li a {
+footer .wrapper ul li a {
     display: inline-block;
     text-decoration: none;
     color: rgb(0, 136, 204);
     text-decoration-color: rgb(0, 136, 204);;
 }
 
-footer div ul li a:hover {
+footer .wrapper ul li a:hover {
     text-decoration: underline;
+}
+
+footer div div {
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
 }
