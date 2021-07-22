@@ -122,3 +122,42 @@ main article section header div a img {
     
 }
 
+/* MAIN ASIDE */
+main aside {
+    position: absolute;
+    bottom: 90px;
+    height: 200px;
+    max-width: 1440px;
+    min-width: 1024px;
+}
+
+main aside ul {
+    position: relative;
+    /* text-align: center; */
+    padding: 0;
+    height: 200px;
+    max-width: 1440px;
+    width: 100%;
+    min-width: 1024px;
+}
+
+main aside ul li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+}
+
+main aside ul li a {
+    display: block;
+    overflow: hidden;
+    cursor: pointer; 
+}
+
+main aside ul li a img {
+    height: 200px;
+    width: 364px;
+}
