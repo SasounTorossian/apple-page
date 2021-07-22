@@ -1,3 +1,8 @@
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* 
     NAVBAR
 */
@@ -84,3 +89,36 @@ main article section {
     background-origin: padding-box;
     background-size: 1440px 1315px;
 }
+
+main article section header {
+    margin-top: -170px;
+    padding: 50px 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+}
+
+main article section header h1 {
+    margin-bottom: -9px;
+}
+
+main article section header h2 {
+    margin-bottom: 27px;
+}
+
+main article section header div {
+    position: relative;
+    height: 31px;
+}
+
+main article section header div a {
+    display: inline-block;
+    height: 29px;
+    margin: 0 18px 25px 18px;
+}
+
+main article section header div a img {
+    
+}
+
