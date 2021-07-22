@@ -14,6 +14,21 @@
     border-left: none;
 }
 
+.right {
+    float: right;
+    width: 51%;
+    padding-top: 1.5em;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    clear: both;
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
+}
+
 /* 
     BODY
 */
@@ -207,7 +222,7 @@ footer .wrapper {
 }
 
 footer .wrapper p {
-    display: inlines;
+    display: inline;
     margin: 0;
     float: left;
     clear: both;
@@ -218,25 +233,20 @@ footer .wrapper p {
     color: #6e6e6e;
 }
 
-footer .wrapper p a {
+footer .wrapper .contact a {
     text-decoration: none;
     color: rgb(0, 136, 204);
     text-decoration-color: rgb(0, 136, 204);;
 }
 
-footer .wrapper p a:hover {
+footer .wrapper .contact a:hover {
     text-decoration: underline;
 }
 
 footer .wrapper ul {
     display: inline;
     margin: 0;
-    padding: 0;
-
-    float: left;
-    width: 51%;
-    padding-top: 1.5em;
-    text-align: left;
+    padding-inline-start: 0;
 }
 
 footer div ul::after {
@@ -283,8 +293,12 @@ footer .wrapper ul li a:hover {
     text-decoration: underline;
 }
 
-footer div div {
-    width: 49%;
-    padding-top: 1.5em;
+footer div .legal p {
+    display: inline;
     text-align: left;
+    padding: 0;
+}
+
+footer div .legal ul {
+    display: inline;
 }
