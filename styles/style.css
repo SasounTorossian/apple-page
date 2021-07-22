@@ -146,12 +146,13 @@ main aside {
     position: absolute;
     bottom: 90px;
     height: 200px;
-    max-width: 1440px;
+    width: 100%;
     min-width: 1024px;
 }
 
 main aside ul {
     position: relative;
+    margin: 0 auto;
     /* text-align: center; */
     padding: 0;
     height: 200px;
