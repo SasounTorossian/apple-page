@@ -58,6 +58,7 @@ nav {
 
 nav ul {
     float: left;
+    padding-inline-start: 0;
 }
 
 nav ul li  {
@@ -67,7 +68,16 @@ nav ul li  {
 
 
 nav ul li a {
+    background-position: 100% 0;
+    outline: none;
     text-decoration: none;  
+    float: left;
+    width: 102px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+    border-right: 1px solid rgb(59, 59, 59);
 }
 
 nav ul li a span {
@@ -83,6 +93,48 @@ nav ul li#gn-apple a span{
     background-color: rgba(0, 0, 0, 0);
 }
 
+nav ul li#gn-store a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li#gn-mac a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -60px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li#gn-ipod a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -90px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li#gn-iphone a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -120px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li#gn-ipad a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -150px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+nav ul li#gn-itunes a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -180px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li#gn-support a span{
+    background-image: url(../assets/images/globalnav_text.png);
+    background-position: 50% -210px;
+    background-color: rgba(0, 0, 0, 0);
+}
 
 nav div {
     position: absolute;
