@@ -215,15 +215,24 @@ main article section header h2 {
     margin-bottom: 27px;
 }
 
-main article section header div {
+main article section header .cta {
     position: relative;
     height: 31px;
+    z-index: 10;
 }
 
-main article section header div a {
+main article section header .cta a {
     display: inline-block;
-    height: 29px;
+    height: 31px;
+    width: 980px;
     margin: 0 18px 25px 18px;
+    background-image: url("../assets/images/cta_your_verse_27pt.png");
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+main article section header .cta a:hover {
+    background-position-y: 97%;
 }
 
 /* MAIN ASIDE */
